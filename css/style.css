@@ -6,7 +6,12 @@ body, html {
 	font-weight: 400;
 	width: 100% !important;
 	height: 100% !important;
+	/* overflow-x: hidden; */
 }
+/* * {
+    border-style:solid;
+} */
+
 h2, h3, h4 {
 	font-family: 'Raleway', sans-serif;
 }
@@ -45,7 +50,7 @@ a {
 }
 a:hover, a:focus {
 	text-decoration: none;
-	color: #608dfd;
+	color: #d6dbe7;
 }
 ul, ol {
 	list-style: none;
@@ -162,6 +167,21 @@ hr {
 	margin: 0;
 	font-size: 15px;
 	font-weight: 500;
+	border-radius: 25px;
+	transition: all 0.5s linear;
+	border: 0;
+}
+.btn-code {
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+	color: #fff;
+	background-color: #5ca9fb;
+	background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+	padding: 10px 15px;
+	letter-spacing: 1px;
+	margin: 0;
+	font-size: 15px;
+	font-weight: 400;
 	border-radius: 25px;
 	transition: all 0.5s linear;
 	border: 0;
@@ -340,6 +360,10 @@ header .intro-text {
 /* Portfolio Section */
 #portfolio {
 	padding: 100px 0;
+	
+}
+#technologies {
+	padding-bottom: 100px;
 }
 .portfolio-item {
 	justify-content: space-evenly;
@@ -448,7 +472,7 @@ button {
 }
 /* Contact Section */
 #contact {
-	padding: 100px 0 60px 0;
+	padding: 8px 0 60px 0;
 	background: linear-gradient(to right, rgb(34, 34, 34) 0%, #181717 100%);
 	color: rgba(255,255,255,.75);
 }
@@ -491,9 +515,9 @@ button {
 	margin: 30px 0;
 	background: transparent;
 	border: 2px solid #fff;
-}
+} */
 #contact .btn-custom:hover {
-	/* color: #1f386e; */
+	color: #1f386e;
 	background: #fff;
 }
  .contact-devcons {
@@ -501,6 +525,14 @@ button {
 	 display: flex;
 	 
 	 /* justify-content: ; */
+ }
+ 
+ .container__project-hack {
+	 padding-top: 50px;
+ }
+ 
+ .btn-video {
+	 padding-top: 30px;
  }
 
  .devcon-container-1 {
