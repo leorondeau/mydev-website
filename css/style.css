@@ -6,7 +6,12 @@ body, html {
 	font-weight: 400;
 	width: 100% !important;
 	height: 100% !important;
+	/* overflow-x: hidden; */
 }
+/* * {
+    border-style:solid;
+} */
+
 h2, h3, h4 {
 	font-family: 'Raleway', sans-serif;
 }
@@ -172,11 +177,11 @@ hr {
 	color: #fff;
 	background-color: #5ca9fb;
 	background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
-	padding: 10px 20px;
+	padding: 10px 15px;
 	letter-spacing: 1px;
 	margin: 0;
 	font-size: 15px;
-	font-weight: 500;
+	font-weight: 400;
 	border-radius: 25px;
 	transition: all 0.5s linear;
 	border: 0;
@@ -355,6 +360,7 @@ header .intro-text {
 /* Portfolio Section */
 #portfolio {
 	padding: 100px 0;
+	
 }
 #technologies {
 	padding-bottom: 100px;
@@ -519,6 +525,14 @@ button {
 	 display: flex;
 	 
 	 /* justify-content: ; */
+ }
+ 
+ .container__project-hack {
+	 padding-top: 50px;
+ }
+ 
+ .btn-video {
+	 padding-top: 30px;
  }
 
  .devcon-container-1 {
