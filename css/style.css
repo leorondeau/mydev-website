@@ -686,3 +686,21 @@ i {
 .img-responsive {
 	margin: 0 auto;
 }
+}
+@media (max-width: 640px ) {
+
+iframe {
+	width: 500px;
+		
+	
+}
+@media (max-width: 500px ) {
+
+iframe {
+	width: 375px;
+		
+	
+}
+
+
+}
